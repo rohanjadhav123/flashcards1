@@ -11,16 +11,19 @@
 	 width:200px; height:200px; border-radius: 7px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transition: -webkit-transform .5s linear 0s;
 	transition: transform .5s linear 0s;
 }
 .flip3D > .back{
 	position:absolute;
+	background-color: rgba(0, 0, 255, 0.8);
 	-webkit-transform: perspective( 600px ) rotateY( 180deg );
 	transform: perspective( 600px ) rotateY( 180deg );
-	background-color: rgba(0, 0, 255, 0.8); width:200px; height:200px; border-radius: 7px;
+	width:200px; height:200px; border-radius: 7px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transition: -webkit-transform .5s linear 0s;
 	transition: transform .5s linear 0s;
 }
